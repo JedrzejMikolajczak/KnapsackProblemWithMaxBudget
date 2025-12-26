@@ -1,0 +1,15 @@
+Porównanie złożoności i optymalności algorytmów
+
+(wykres zostal wygenerowany za pomocą matplotlib dla N przedmiotów = 10, 15, 20, 25, 30, 40, 50)
+
+Algorytmy Dokładne (Siłowy oraz Dynamiczny)
+
+Algorytmy te gwarantują znalezienie najlepszego możliwego rozwiązania. Płacimy za to ogromnym czasem obliczeń ze względu na wykładniczą złożoność. Lepszym rozwiązaniem jest algorytm dynamicznt, który wykazuje wzrost wielomianowy, zależny nie tylko0 od liczby przedmiotów, ale też od wielkości plecaka i budżetu.
+
+Algorytm Zachłanny
+
+Jest to najszybszy algorytm, lecz jego optymalność jest niska. Wpada on w „pułapki”, wybierając lokalnie najlepszy przedmiot, który blokuje miejsce dla najbardziej opłacalnego zestawu. Lepszym rozwiązaniem pod względem optymalności jest algorytm zachłanny ulosowiony, gdzie posiadamy zwiększoną szanse na otrzymanie optymalnego rozwiązania przy bardzo nieznacznie zwiększonym czasie obliczeniowym.
+
+Metaheurystyka ACO - Algorytm Mrówkowy
+
+Jest to algorytm, który jest znacznie szybszy od metod dokładny i skaluje się liniowo. Jego optymalność jest wysoka. Nie gwarantuje wyniku idealnego, ale dzięki mechanizmom feromonowym i losowości znajduje rozwiązania znacznie lepsze niż algorytm zachłanny, gdzie bardzo często zbliża się do optimum.
